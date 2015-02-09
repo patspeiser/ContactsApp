@@ -7,12 +7,15 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4337B0841A8836C600ED3DBA /* Contact.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4337B0831A8836C600ED3DBA /* Contact.swift */; };
+		4337B0861A883A4900ED3DBA /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4337B0851A883A4900ED3DBA /* DetailViewController.swift */; };
 		43CC8BF01A88340900695A71 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43CC8BEF1A88340900695A71 /* AppDelegate.swift */; };
 		43CC8BF21A88340900695A71 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43CC8BF11A88340900695A71 /* ViewController.swift */; };
 		43CC8BF51A88340900695A71 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 43CC8BF31A88340900695A71 /* Main.storyboard */; };
 		43CC8BF71A88340900695A71 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 43CC8BF61A88340900695A71 /* Images.xcassets */; };
 		43CC8BFA1A88340900695A71 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 43CC8BF81A88340900695A71 /* LaunchScreen.xib */; };
 		43CC8C061A88340900695A71 /* ContactsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43CC8C051A88340900695A71 /* ContactsTests.swift */; };
+		43CC8C101A8834C900695A71 /* ContactsTableTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43CC8C0F1A8834C900695A71 /* ContactsTableTableViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -26,6 +29,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		4337B0831A8836C600ED3DBA /* Contact.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Contact.swift; sourceTree = "<group>"; };
+		4337B0851A883A4900ED3DBA /* DetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
 		43CC8BEA1A88340900695A71 /* Contacts.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Contacts.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		43CC8BEE1A88340900695A71 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		43CC8BEF1A88340900695A71 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -36,6 +41,7 @@
 		43CC8BFF1A88340900695A71 /* ContactsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ContactsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		43CC8C041A88340900695A71 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		43CC8C051A88340900695A71 /* ContactsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactsTests.swift; sourceTree = "<group>"; };
+		43CC8C0F1A8834C900695A71 /* ContactsTableTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ContactsTableTableViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -80,6 +86,9 @@
 				43CC8BEF1A88340900695A71 /* AppDelegate.swift */,
 				43CC8BF11A88340900695A71 /* ViewController.swift */,
 				43CC8BF31A88340900695A71 /* Main.storyboard */,
+				43CC8C0F1A8834C900695A71 /* ContactsTableTableViewController.swift */,
+				4337B0851A883A4900ED3DBA /* DetailViewController.swift */,
+				4337B0831A8836C600ED3DBA /* Contact.swift */,
 				43CC8BF61A88340900695A71 /* Images.xcassets */,
 				43CC8BF81A88340900695A71 /* LaunchScreen.xib */,
 				43CC8BED1A88340900695A71 /* Supporting Files */,
@@ -212,6 +221,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4337B0841A8836C600ED3DBA /* Contact.swift in Sources */,
+				43CC8C101A8834C900695A71 /* ContactsTableTableViewController.swift in Sources */,
+				4337B0861A883A4900ED3DBA /* DetailViewController.swift in Sources */,
 				43CC8BF21A88340900695A71 /* ViewController.swift in Sources */,
 				43CC8BF01A88340900695A71 /* AppDelegate.swift in Sources */,
 			);
@@ -405,6 +417,7 @@
 				43CC8C0B1A88340900695A71 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		43CC8C0C1A88340900695A71 /* Build configuration list for PBXNativeTarget "ContactsTests" */ = {
 			isa = XCConfigurationList;
@@ -413,6 +426,7 @@
 				43CC8C0E1A88340900695A71 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
